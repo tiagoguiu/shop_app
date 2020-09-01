@@ -10,3 +10,15 @@ const kPrimaryGradientColor = LinearGradient(
 const kSecondaryColor = Color(0xFF979797);
 const kTextColor = Color(0xFF757575);
 const kAnimationDuration = Duration(milliseconds: 200);
+
+
+final RegExp emailValidatorRegExp =
+    RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
+const String kEmailNullError = "Por favor coloque seu email";
+const String kInvalidEmailError = "Por favor coloque um email valido";
+const String kPassNullError = "Por favor coloque sua senha";
+const String kShortPassError = "Senha muito pequena";
+const String kMatchPassError = "Senha incorreta";
+const String kNamelNullError = "Por favor coloque seu nome";
+const String kPhoneNumberNullError = "Por favor coloque seu celular";
+const String kAddressNullError = "Por favor coloque seu endereço";
