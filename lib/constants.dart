@@ -29,3 +29,5 @@ const String kMatchPassError = "Senha incorreta";
 const String kNamelNullError = "Por favor coloque seu nome";
 const String kPhoneNumberNullError = "Por favor coloque seu celular";
 const String kAddressNullError = "Por favor coloque seu endereço";
+const String kNameNullError = "Por favor coloque seu nome";
+
