@@ -31,3 +31,17 @@ const String kPhoneNumberNullError = "Por favor coloque seu celular";
 const String kAddressNullError = "Por favor coloque seu endereço";
 const String kNameNullError = "Por favor coloque seu nome";
 
+final otpInputDecoration = InputDecoration(
+  contentPadding:
+      EdgeInsets.symmetric(vertical: getProportionateScreenWidth(15)),
+  enabledBorder: outlineInputBorder(),
+  focusedBorder: outlineInputBorder(),
+  border: outlineInputBorder(),
+);
+
+OutlineInputBorder outlineInputBorder() {
+  return OutlineInputBorder(
+    borderRadius: BorderRadius.circular(15),
+    borderSide: BorderSide(color: kTextColor),
+);
+}
